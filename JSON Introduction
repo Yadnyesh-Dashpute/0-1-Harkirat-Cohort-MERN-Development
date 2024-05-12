@@ -1,0 +1,19 @@
+// JSON
+
+// Parse Method 
+
+const users = '{"name":"Yadnyesh","Age":19, "gender":"male"}'
+
+const user = JSON.parse(users)
+console.log(user["gender"]);
+
+
+// Stringify Method
+
+const user={
+    name:"Yadnyesh",
+    age:19,
+ }
+
+const userString = JSON.stringify(user);
+console.log(userString)
