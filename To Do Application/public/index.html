@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>To Do List</h1>
+        <h2>Task List</h2>
+        <div class="c1">
+            <div class="t" id="wrapper">
+                <input class="t1" type="text" placeholder="What do you have planned?">
+                <button class="btn" id="add-btn">Add Task</button>
+                
+            </div>
+            <h2>Tasks</h2>
+
+            <div id="tasks" class="task">
+                <p id="pending-tasks">
+                   You Have <span class="count-value">0</span> Task to Complete
+                </p>
+        </div>
+        </div>
+        <p id="error">Input Cannot Be Empty!</p>
+    </div>
+
+<script src="/index.js"></script>
+</body>
+</html>
