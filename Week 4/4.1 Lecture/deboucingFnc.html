@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Debouncing Function JS</title>
+</head>
+<script>
+    let timeOut
+    function debouncing(){
+
+        clearTimeout(timeOut)
+
+        timeOut = setTimeout(function(){
+            sumTwo()
+
+        },1000)
+    }
+    
+
+    async function sumTwo(){
+         const a = document.getElementById("t1").value
+         const b = document.getElementById("t2").value
+
+         const response = await fetch("https://sum-server.100xdevs.com/sum?a=" +a +"&b=" +b)
+         const ans = await response.text()
+         document.getElementById("finalSum").innerHTML = ans
+    }
+</script>
+<body>
+    
+    <input oninput="debouncing()" type="text" placeholder="Enter Value 1" id="t1"><br>
+    <br>
+    <input oninput="debouncing()" type="text" placeholder="Enter Value 2" id="t2">
+    <br><br>
+    <!-- <input type="button" value="submit" onclick="sumTwo()"> -->
+    <br>
+    <br>
+    <span id="finalSum"></span>
+
+
+</body>
+</html>
