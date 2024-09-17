@@ -11,4 +11,4 @@
 - All the topic related to React like Use Effect, Memo and More Hooks
 
 # WEEK 7
-- All the topic related to React Recoil - useRecoilState, RecoilRoot
+- All the topic related to React Recoil - useRecoilState, RecoilRoot, CustomHooks, Atom-Family, Easybits
