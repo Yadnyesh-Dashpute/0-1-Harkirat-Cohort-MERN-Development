@@ -12,3 +12,7 @@
 
 # WEEK 7
 - All the topic related to React Recoil - useRecoilState, RecoilRoot, CustomHooks, Atom-Family, Easybits
+
+# WEEK 9
+- All the topic related to the ORMs (Prisma Operations), Hono-App (Cloudflare Express Support Library), Connection Pooling, Typescript Advance Api, Deployment on Cloudflare
+  
