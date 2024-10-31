@@ -16,3 +16,5 @@
 # WEEK 9
 - All the topic related to the ORMs (Prisma Operations), Hono-App (Cloudflare Express Support Library), Connection Pooling, Typescript Advance Api, Deployment on Cloudflare
   
+# WEEK 10 
+- This directory is realated to the NEXT JS Learning In these all next js concepts are covered.
